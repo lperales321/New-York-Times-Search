@@ -100,6 +100,14 @@
                 }
             })
           });
+
+          $('#clearButton').click(function(){
+            $('#searchTerms').val("")
+            $('#NumRecords').val(1);
+            $('#startYear').val('yyyy-MM-dd');
+            $('#endYear').val('yyyy-MM-dd');
+            $('#results').empty();
+          })
         </script>
 ​
 </html>
